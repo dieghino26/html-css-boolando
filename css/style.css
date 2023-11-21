@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*header*/
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FF6900;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    flex-basis: 75%;
+    border: 2px dashed black;
+    background-color: aqua;
+}
+
+.link {
+    flex-basis: 25%;
+    border: 2px dashed black;
+}
+
+.logo {
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+.account {
+    flex-basis: 25%;
+    border: 2px dashed black;
+}
