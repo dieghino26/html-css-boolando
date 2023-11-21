@@ -33,3 +33,52 @@ header {
     flex-basis: 25%;
     border: 2px dashed black;
 }
+
+/*products*/
+.product-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.product-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 75%;
+    min-height: 1000px;
+    border: 2px dashed black;
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.product {
+    border: 2px dashed black;
+    height: 650px;
+    width: 440px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.footer-box {
+    display: flex;
+    border: 2px dashed black;
+    flex-basis: 75%;
+}
+
+.info-boolando {
+    border: 2px dashed black;
+    flex-grow: 1;
+}
+
+.socials {
+    border: 2px dashed black;
+    flex-basis: 20%;
+
+}
