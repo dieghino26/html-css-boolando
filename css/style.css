@@ -45,7 +45,7 @@ header {
 .container {
     display: flex;
     align-items: center;
-    flex-basis: 75%;
+    flex-basis: 72%;
 }
 
 .link ul {
@@ -66,6 +66,7 @@ header {
 
 .logo img {
     width: 150px;
+    display: block;
 }
 
 .account {
@@ -83,6 +84,7 @@ header {
     margin-top: 90px;
 
 
+
 }
 
 .product-box {
@@ -93,6 +95,7 @@ header {
     min-height: 1000px;
     margin-top: 60px;
     padding: 30px;
+
 }
 
 .product {
@@ -101,8 +104,22 @@ header {
     margin-bottom: 60px;
 }
 
-/*footer*/
+/*hover photo*/
+.secondary-pic,
+.product:hover .primary-pic {
+    display: none;
 
+}
+
+.product .primary-pic {
+    display: block;
+}
+
+.product:hover .secondary-pic {
+    display: block;
+}
+
+/*footer*/
 footer {
     display: flex;
     justify-content: center;
